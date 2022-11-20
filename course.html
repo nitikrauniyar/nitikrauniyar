@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>our courses page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("ul").toggle();
+          });
+        });
+    </script>
+</head>
+<body>
+    <section class="sub2-header">
+        <nav>
+            <a href="index.html"><img src="img/1/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                <button class="nav-menu menubar">Menu</button>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+         <h1>Our Courses</h1>
+</section>
+<!-----courses------->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>We have a huge varieties of courses</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>+2 in Science/Management</h3>
+            <p><img src="img/1/intermeddiate.jpg" alt=""></p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p><img src="img/1/degree.jpg" alt=""></p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p><img src="img/1/mba.jpg" alt=""></p>
+        </div>
+    </div>
+
+</section>
+
+<!--facilities-->
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="img/1/library.png">
+            <h3>World class Library</h3>
+        </div>
+        <div class="facilities-col">
+            <img src="img/1/basketball.png">
+            <h3>Largest Play Ground</h3>
+   
+        </div>
+        <div class="facilities-col">
+            <img src="img/1/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+       
+        </div>
+        <div class="facilities-col">
+            <img src="img/1/dance.jpg">
+            <h3>World class Dance</h3>
+        
+        </div>
+        <div class="facilities-col">
+            <img src="img/1/tree.jpg">
+            <h3> Planting Trees</h3>
+         
+        </div>
+        <div class="facilities-col">
+            <img src="img/1/speaking.jpg">
+            <h3>speaking Activity</h3>
+     
+        </div>
+        <div class="facilities-col">
+            <img src="img/1/table.jpg">
+            <h3>World class table tennis</h3>
+    
+        </div>
+        <div class="facilities-col">
+            <img src="img/1/football.jpg">
+            <h3>Largest football Play Ground</h3>
+
+        </div>
+        <div class="facilities-col">
+            <img src="img/1/quiz.jpg">
+            <h3>Quiz Competition</h3>
+
+        </div>
+    </div>
+
+
+</section>
+<!--footer-->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <P>Model multiple college, an institute of management and science is located in Janakpur. <br>In our more than two decades of history, since our inception in 1996, we have established ourselves as a leading institution <br>that is living its vision of enhancing capacity of individuals and institutions in Nepal to contribute to the nation’s development.</P> <br>
+    <p>The institution initially begins with plus two in management and science stream. Up to today we have different program as per <br>consistent demand of the conscious guardians, enthusiastic students and intellectuals.  <br>It has been running MBA and BBA under Model purbanchal college affiliation with Purbanchal University, <br> MBS, BBS, BCA, B.ED. one year(SCI) affiliation with Tribhuwan University under Model multiple college and  <br>HA and CMLT under Model Medical Institute affiliated with CTEVT.</p>
+          <div class="icons">
+            <a href="https://www.facebook.com/mmc.jnk/">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+          </div>
+          <p>Made with <i class="fa fa-heart-o"></i> by Nitik Rauniyar</p>
+
+
+</section>
+<!--------javascript for toggle menu---------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showmenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>

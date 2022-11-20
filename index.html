@@ -1,71 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Nitik Rauniyar Official Website</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-     <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top">Nitik Rauniyar</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#Home">Home</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#Portfolio">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Expertise Field</a></li>
-                    </ul>
-                </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website design</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("ul").toggle();
+          });
+        });
+    </script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/1/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul class="js-use">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>            
+                </ul>
+                <button class="nav-menu menubar">Menu</button>
             </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-                <!-- Navigation End-->
-        <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="brp.jpg" alt="..." />
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Nitik Rauniyar</h1>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Programmer</p>
-                <nav>
-                    <a href="https://bit.ly/3jczOSc" target="_blank"><i class="fab fa-youtube"></i></a>
-                    <a href="http://instagram.com/nitikrauniyar1" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://github.com/nidhirauniyar" target="_blank"><i class="fab fa-github"></i></a>
-                </nav>
-              
-               
-            </div>
-        </header>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; 2021 Nitik Rauniyar</small></div>
+        <div class="text-box">
+            <h1>Model Multiple College</h1>
+            <p>We are Best College in Janakpur</p>
+            <a href="https://www.facebook.com/mmc.jnk/" class="hero-btn">Visit us to know more</a>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+
+</section>
+<!-----courses------->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>We have a huge varieties of courses</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>+2 in Science/Management</h3>
+            <p><img src="img/1/intermeddiate.jpg" alt=""></p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p><img src="img/1/degree.jpg" alt=""></p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p><img src="img/1/mba.jpg" alt=""></p>
+        </div>
+    </div>
+
+</section>
+<!--campus-->
+<section class="campus">
+     <h1>Our Exclusive Gallery</h1>
+     <div class="row">
+         <div class="campus-col">
+             <img src="img/1/teammember.jpg">
+             <div class="layer">
+                 <h3>Team Members</h3>
+             </div>
+         </div>
+         <div class="campus-col">
+            <img src="img/1/img1.jpg">
+            <div class="layer">
+                <h3>Program</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="img/1/founder.jpg">
+            <div class="layer">
+                <h3>Founder</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="img/1/party.jpg">
+            <div class="layer">
+                <h3>Party</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="img/1/microscope.png">
+            <div class="layer">
+                <h3>Bio-Lab</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="img/1/entrance.jpg">
+            <div class="layer">
+                <h3>Entrance</h3>
+            </div>
+        </div>
+     </div>
+
+</section>
+<!--facilities-->
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="img/1/library.png">
+            <h3>World class Library</h3>
+        </div>
+        <div class="facilities-col">
+            <img src="img/1/basketball.png">
+            <h3>Largest Play Ground</h3>
+   
+        </div>
+        <div class="facilities-col">
+            <img src="img/1/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+       
+        </div>
+        <div class="facilities-col">
+            <img src="img/1/dance.jpg">
+            <h3>World class Dance</h3>
+        
+        </div>
+        <div class="facilities-col">
+            <img src="img/1/tree.jpg">
+            <h3> Planting Trees</h3>
+         
+        </div>
+        <div class="facilities-col">
+            <img src="img/1/speaking.jpg">
+            <h3>speaking Activity</h3>
+     
+        </div>
+        <div class="facilities-col">
+            <img src="img/1/table.jpg">
+            <h3>World class table tennis</h3>
+    
+        </div>
+        <div class="facilities-col">
+            <img src="img/1/football.jpg">
+            <h3>Largest football Play Ground</h3>
+
+        </div>
+        <div class="facilities-col">
+            <img src="img/1/quiz.jpg">
+            <h3>Quiz Competition</h3>
+
+        </div>
+    </div>
+
+
+</section>
+<!--testimonials-->
+<section class="testimonials">
+    <h1>What Our Students Says</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="img//1/student1.jpg ">
+            <div>
+                <p>As a +2 college, anyone who gets to study there deserves to study there. There is a competitive entrance exam to shortlist your name as a student and and if you pass it, you have the potential within you to take part in the challenging environment of the college. Most students are mostly toppers.</p>
+                 <h3>Diksha Rauniyar</h3>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="img//1/user2.jpg ">
+            <div>
+                <p>This is hands-down the best college for +2 science. If you get admitted to the college, you'll find many opportunities. You'll study with some of the most intelligent minds of your batch which provides healthy competition. Besides, the college also encourages extra-curricular activities.</p>
+                 <h3>Vicky Kashyap</h3>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="img//1/st.jpg ">
+            <div>
+                <p>As someone who studied in Model Multiple College i might be biased but i think it's a great college in Nepal and deserves the reputation it gets. Good quality teachers, study is good along with practicals, lots of extracurricular activities like various clubs and sports among others.</p>
+                 <h3>Anmol Sah</h3>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="img//1/testi.png ">
+            <div>
+                <p>As being a modelain I can say that the environment is best for studying. You will get help from teachers and students and will always feel like your second home. Model is more popular among +2 students rather than bachelors or masters. There is a saying beauty depends on eyes, so it matters on how you look at things .</p>
+                 <h3>Sita Yadav</h3>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!--call to action-->
+<section class="cta">
+    <h1>Admission is Open <br>Enroll Anywhere from the World</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+<!--footer-->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <P>Model multiple college, an institute of management and science is located in Janakpur. <br>In our more than two decades of history, since our inception in 1996, we have established ourselves as a leading institution <br>that is living its vision of enhancing capacity of individuals and institutions in Nepal to contribute to the nation’s development.</P> <br>
+    <p>The institution initially begins with plus two in management and science stream. Up to today we have different program as per <br>consistent demand of the conscious guardians, enthusiastic students and intellectuals.  <br>It has been running MBA and BBA under Model purbanchal college affiliation with Purbanchal University, <br> MBS, BBS, BCA, B.ED. one year(SCI) affiliation with Tribhuwan University under Model multiple college and  <br>HA and CMLT under Model Medical Institute affiliated with CTEVT.</p>
+          <div class="icons">
+            <a href="https://www.facebook.com/mmc.jnk/">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+          </div>
+          <p>Made with <i class="fa fa-heart-o"></i> by Nitik Rauniyar</p>
+
+
+</section>
+<!--------javascript for toggle menu---------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showmenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+</body>
 </html>

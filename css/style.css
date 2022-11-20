@@ -812,3 +812,45 @@ section.about-us .about-col .hero-btn:hover {
 section.course p img {
   width: 100%;
 }
+@media(max-width:425px){
+    section.course {
+        width: 100%;
+        padding: 26px 10px;
+    }
+    section.course .row .course-col {
+        margin-bottom: 35px;
+    }
+    .campus {
+        width: 100%;
+    }
+    .facilities {
+        width: 100%; 
+        padding: 10px;
+    }
+    .testimonials {
+        width: 100%;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 20px;
+        padding-bottom: 14px;
+    }
+    .testimonials .testimonial-col {
+        margin: 16px 0;
+    }
+    .cta {
+        margin: 10px 0;
+        width: 100%;
+    }
+    .footer p {
+        padding: 18px;
+    }
+    .header .text-box h1 {
+        font-size: 37px;
+    }
+    .nav-menu {
+        padding: 0 24px;
+        margin: 42px 0;
+    }
+    
+}

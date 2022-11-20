@@ -145,7 +145,7 @@
 }
 @media (max-width: 700px) {
   section.about-us .about-col{
-    width: 100%
+    width: 100% !important;
   }
   .nav-menu{
     display: block;
